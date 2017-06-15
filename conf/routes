@@ -1,0 +1,4 @@
+# Routes
+
+GET     /snl/checkPlayerToken/:playerId         controllers.GameController.checkPlayerToken(playerId: String)
+PUT     /snl/movePlayerToken/:playerId/:spaces  controllers.GameController.movePlayerToken(playerId: String, spaces: Int)
